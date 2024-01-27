@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
 import { AppComponent } from './components/app.component';
+import { SideColumnComponent } from './components/side-column/side-column.component';
+import { MainColumnComponent } from './components/main-column/main-column.component';
+import { HeaderComponent } from './components/header/header.component';
 
 import { BrowserModule } from '@angular/platform-browser';
 
 @ NgModule({
 
 declarations: [
-	AppComponent
+	AppComponent,
+	SideColumnComponent,
+	MainColumnComponent,
+	HeaderComponent
 ],
 
 imports: [
-	BrowserModule
+	BrowserModule,
 ],
 
 bootstrap: [AppComponent]
