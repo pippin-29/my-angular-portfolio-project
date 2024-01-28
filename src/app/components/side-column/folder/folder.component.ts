@@ -10,7 +10,9 @@ import { Component, Input } from '@angular/core';
 
 export class FolderComponent {
 	@Input() folderName: string = '';
+
 	@Input() files: string[] = [];
+	@Input() subfolders: { name: string; files: string[] }[] = []
 	isCollapsed = true;
 
 	toggleCollapse() {

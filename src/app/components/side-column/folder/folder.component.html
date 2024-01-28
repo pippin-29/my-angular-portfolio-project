@@ -3,7 +3,7 @@
 	  {{ isCollapsed ? '📁' : '📂' }} {{ folderName }}
 	</span>
 	<div *ngIf="!isCollapsed" class="file">
-	  
+		<app-folder *ngFor="let subfolder of subfolders" [folderName]="subfolder.name" [files]="subfolder.files"></app-folder>
 		<span *ngFor="let file of files">
 			<span class="icon">
 				📄

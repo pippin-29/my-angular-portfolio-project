@@ -1,8 +1,13 @@
 .side-column {
-	column-width: 256px;
-	height: 2048px;
+	max-width: 164px;
+
+	height: 66vh;
 	position: relative;	
 	border: 1px solid #ccc;
 	margin-bottom: 10px;
 	padding: 10px;
+
+	overflow-x: auto;
+	overflow-y: auto;
+	white-space: nowrap;
 }
