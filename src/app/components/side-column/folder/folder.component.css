@@ -1,0 +1,12 @@
+.arrow {
+	cursor: pointer;
+}
+
+.arrow.collapsed {
+	color: black;
+}
+
+.arrow.expanded {
+	color: black;
+}
+

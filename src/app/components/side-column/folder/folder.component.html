@@ -1,0 +1,15 @@
+<div class="folder">
+	<span (click)="toggleCollapse()" [class.arrow]="true" [class.collapsed]="isCollapsed" [class.expanded]="!isCollapsed">
+	  {{ isCollapsed ? '📁' : '📂' }} {{ folderName }}
+	</span>
+	<div *ngIf="!isCollapsed" class="file">
+	  
+		<span *ngFor="let file of files">
+			<span class="icon">
+				📄
+			</span>
+			{{ file }}
+			<br>
+		</span>
+	</div>
+  </div>
