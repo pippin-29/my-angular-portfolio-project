@@ -2,15 +2,33 @@
 	color: azure;
 	background-color: #2c2c2c;
 	max-width: auto;
-	text-align: center;
-	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 64px;
 	position: relative;	
 	border: 1px solid #ccc;
-
+	vertical-align: middle;
 	margin-bottom: 10px;
 	padding: 21px;
 }
 
 h2 {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0; /* removes default margin */
+	font-family: monospace;
+}
+
+.c {
+	float: left;
+	position: relative;
+	top: 50%;
+	transform: translateY(-42%);
+
+}
+
+.a {
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }

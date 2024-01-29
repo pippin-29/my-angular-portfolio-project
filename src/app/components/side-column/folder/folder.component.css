@@ -3,11 +3,11 @@
 }
 
 .arrow.collapsed {
-	color: black;
+	color: #ccc;
 }
 
 .arrow.expanded {
-	color: black;
+	color: plum;
 }
 
 .icon {
