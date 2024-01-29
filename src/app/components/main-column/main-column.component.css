@@ -1,4 +1,5 @@
 .main-column {
+
 	column-width: 1024px;
 	height: 66vh;
 	position: relative;	
@@ -7,7 +8,7 @@
 	padding: 10px;
 	flex: 1;
 
-	overflow-x: auto;
-	overflow-y: auto;
-	white-space: nowrap;
+	overflow:scroll;
+
+
 }
