@@ -1,6 +1,7 @@
 .side-column {
 	max-width: 164px;
-
+	background-color: #ffbbbb;
+	font-family: monospace;
 	height: 66vh;
 	position: relative;	
 	border: 1px solid #ccc;
