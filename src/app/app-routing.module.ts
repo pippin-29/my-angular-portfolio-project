@@ -8,7 +8,7 @@ import { C_ProjectsComponent } from "./components/nav/c_projects/c_projects.comp
 
 	const routes: Routes = [
 
-	{ path: 'components/nav/c_projects', component: C_ProjectsComponent }
+	{ path: 'components/nav/c_projects', component: C_ProjectsComponent } // routes appear in main-column component
 ];
 
 @NgModule({
