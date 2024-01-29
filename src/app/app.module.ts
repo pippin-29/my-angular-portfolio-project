@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './components/app.component';
 import { SideColumnComponent } from './components/side-column/side-column.component';
 	import { FolderComponent } from './components/side-column/folder/folder.component';
-	import { FileViewComponent } from './components/file-view/file-view.component';
+	
 import { MainColumnComponent } from './components/main-column/main-column.component';
 import { HeaderComponent } from './components/header/header.component';
 
@@ -17,7 +17,7 @@ declarations: [
 	AppComponent,
 	SideColumnComponent,
 		FolderComponent,
-		FileViewComponent,
+
 	MainColumnComponent,
 	HeaderComponent
 ],
