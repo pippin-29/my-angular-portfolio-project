@@ -1,3 +1,6 @@
+// The HeaderComponent is a simple header that contains the title and logo.
+
+
 import { Component } from "@angular/core";
 
 
@@ -8,4 +11,4 @@ import { Component } from "@angular/core";
 })
 
 
-export class HeaderComponent { }
+export class HeaderComponent { } // find in app.module.ts

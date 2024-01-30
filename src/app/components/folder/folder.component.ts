@@ -1,6 +1,11 @@
-// folder.component.ts
+/*	The FolderComponent has been designed to allow expansion and collapsion
+	of links.
+	This is still being designed.
+	Currently the folder lists are not links.
+*/
 
 import { Component, Input } from '@angular/core';
+
 
 @Component({
 	selector: 'app-folder',
@@ -8,14 +13,15 @@ import { Component, Input } from '@angular/core';
 	styleUrl: './folder.component.css'
 })
 
-export class FolderComponent {
+export class FolderComponent { // find in app.module.ts
 	@Input() folderName: string = '';
 
 	@Input() files: string[] = [];
-	@Input() subfolders: { name: string; files: string[] }[] = [] // doesn't work yet
+
 	isCollapsed = true;
 
 	toggleCollapse() {
 		this.isCollapsed = !this.isCollapsed;
 	}
+
 }
