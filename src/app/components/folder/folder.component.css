@@ -4,6 +4,7 @@
 
 .arrow.collapsed {
 	color: #ccc;
+	font-style: oblique;
 }
 
 .arrow.expanded {
