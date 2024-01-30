@@ -23,8 +23,6 @@ import { FolderComponent } from './components/folder/folder.component';
 /// ^^^ custom components ^^^ ///
 
 
-
-
 @ NgModule({
 declarations: [
 	AppComponent,
