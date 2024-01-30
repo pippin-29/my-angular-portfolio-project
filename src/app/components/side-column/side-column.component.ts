@@ -18,4 +18,10 @@ import { Component } from "@angular/core";
 	styleUrl: './side-column.component.css'
 })
 
-export class SideColumnComponent { } // find in app.module.ts
+export class SideColumnComponent {
+		isSideColumnVisible = true;
+
+		toggleSideColumn() {
+			this.isSideColumnVisible = !this.isSideColumnVisible;
+		}
+	} // find in app.module.ts

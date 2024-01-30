@@ -1,6 +1,6 @@
-.side-column {
+.side-column{
 	max-width: 196px;
-	min-width: 100px;
+
 	background-color: #2c2c2c;
 	color: plum;
 	font-family: monospace;
@@ -12,4 +12,8 @@
 
 	overflow: auto;
 	white-space: nowrap;
+}
+
+.collapsed {
+	max-width: 42px;
 }
