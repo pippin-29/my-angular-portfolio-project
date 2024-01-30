@@ -1,0 +1,46 @@
+.grid-container {
+	display: flexbox;
+	width: 300px;
+	height: 380px;
+
+	font-family: monospace;
+	color: black;
+	background-color: #ccc;
+
+	overflow: auto;
+	padding: 2px;
+	gap: 10px;
+}
+
+.grid-item {
+
+	width: 64px;
+	height: 64px;
+	margin: 2px;
+	border: 1px solid #f00000;
+}
+
+.grid-item:active {
+	background-color: #ccc;
+}
+
+.grid-item:hover {
+	background-color: aqua;
+}
+
+.dw-grid-item {
+
+	width: 132px;
+	height: 64px;
+	margin: 2px;
+
+	border: 1px solid #f00000;
+}
+
+.dw-grid-item:active {
+	background-color: #ccc;
+}
+
+.dw-grid-item:hover {
+	background-color: aqua;
+}
