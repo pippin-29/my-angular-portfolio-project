@@ -1,0 +1,40 @@
+.footer {
+	color: azure;
+	background-color: #2c2c2c;
+	max-width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 64px;
+	position: relative;	
+	border: 1px solid #ccc;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	padding: 21px;
+}
+
+.in-img {
+	transform: translateX(5%);
+
+}
+
+.gh {
+	display: flex;
+	float: left;
+	transform: translateX(-10%);
+	background-color: #383838;
+	padding: 10px;
+	margin: 12px;
+	max-width: 128px;
+
+}
+
+.in {
+	display: flex;
+	float: right;
+	transform: translateX(10%);
+	background-color: #383838;
+	padding: 10px;
+	margin: 12px;
+	max-width: 128px;
+}

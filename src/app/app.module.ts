@@ -20,6 +20,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SideColumnComponent } from './components/side-column/side-column.component';
 import { MainColumnComponent } from './components/main-column/main-column.component';
 import { FolderComponent } from './components/folder/folder.component';
+import { FooterComponent } from './components/footer/footer.component';
 /// ^^^ custom components ^^^ ///
 
 
@@ -29,7 +30,8 @@ declarations: [
 	SideColumnComponent,
 	FolderComponent,
 	MainColumnComponent,
-	HeaderComponent
+	HeaderComponent,
+	FooterComponent
 ],
 
 imports: [
