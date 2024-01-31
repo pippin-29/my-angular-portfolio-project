@@ -17,7 +17,7 @@
 	width: 64px;
 	height: 64px;
 	margin: 2px;
-	border: 1px solid #f00000;
+	border: 2px solid plum;
 }
 
 .grid-item:active {
@@ -34,7 +34,7 @@
 	height: 64px;
 	margin: 2px;
 
-	border: 1px solid #f00000;
+	border: 2px solid plum;
 }
 
 .dw-grid-item:active {
@@ -47,9 +47,9 @@
 
 .fourwide-grid-item {
 	background-color: white;
-	width: 266px;
+	width: 264px;
 	height: 64px;
 	margin: 2px;
-	border: 1px solid #f00000;
+	border: 2px solid plum;
 }
 
