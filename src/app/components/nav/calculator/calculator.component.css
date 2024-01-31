@@ -53,3 +53,13 @@
 	border: 2px solid plum;
 }
 
+.output {
+	font-size: 200%;
+	float: right;
+}
+
+.opout {
+	font-size: 130%;
+	margin-left: 20%;
+}
+

@@ -10,5 +10,17 @@ import { Component } from "@angular/core";
 })
 
 export class CalculatorComponent {
-	
+	opout: string = '';
+	output: number = 0;
+
+	push_digit(input: string)
+	{
+		this.output = (this.output * 10) + parseInt(input, 10);
+	}
+	push_op(input:string) 
+	{
+		this.opout = input;
+	}
+			
+
 }

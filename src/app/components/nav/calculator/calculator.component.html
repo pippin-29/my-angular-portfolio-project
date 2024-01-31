@@ -1,34 +1,37 @@
 	<div class="grid-container">
 		<div class="fourwide-grid-item">
-		
+			<span class="opout" >{{ opout }}</span>
+			<br>
+			<span class="output" > {{ output }} </span>
+			
 		</div>
 		<div>
-			<button class="grid-item">C</button>
-			<button class="grid-item">sq</button>
-			<button class="grid-item">sqrt</button>
-			<button class="grid-item">/</button>
+			<button (click)="push_op('C')" class="grid-item">C</button>
+			<button (click)="push_op('sq')" class="grid-item">sq</button>
+			<button (click)="push_op('sqrt')" class="grid-item">sqrt</button>
+			<button (click)="push_op('/')" class="grid-item">/</button>
 		</div>
 		<div>
-			<button class="grid-item">7</button>
-			<button class="grid-item">8</button>
-			<button class="grid-item">9</button>
-			<button class="grid-item">-</button>	
+			<button (click)="push_digit('7')" class="grid-item">7</button>
+			<button (click)="push_digit('8')" class="grid-item">8</button>
+			<button (click)="push_digit('9')" class="grid-item">9</button>
+			<button (click)="push_op('-')" class="grid-item">-</button>	
 		</div>
 		<div>
-			<button class="grid-item">5</button>
-			<button class="grid-item">6</button>
-			<button class="grid-item">7</button>
-			<button class="grid-item">*</button>	
+			<button (click)="push_digit('5')" class="grid-item">5</button>
+			<button (click)="push_digit('6')" class="grid-item">6</button>
+			<button (click)="push_digit('7')" class="grid-item">7</button>
+			<button (click)="push_op('*')" class="grid-item">*</button>	
 		</div>
 		<div>
-			<button class="grid-item">1</button>
-			<button class="grid-item">2</button>
-			<button class="grid-item">3</button>
-			<button class="grid-item">+</button>
+			<button (click)="push_digit('1')" class="grid-item">1</button>
+			<button (click)="push_digit('2')" class="grid-item">2</button>
+			<button (click)="push_digit('3')" class="grid-item">3</button>
+			<button (click)="push_op('+')" class="grid-item">+</button>
 		</div>
 		<div>
-		<button class="dw-grid-item">00</button>
-		<button class="grid-item">0</button>
-		<button class="grid-item">=</button>
+			<button (click)="push_digit('00')" class="dw-grid-item">00</button>
+			<button (click)="push_digit('0')" class="grid-item">0</button>
+			<button (click)="push_op('=')" class="grid-item">=</button>
 		</div>
 	</div>
