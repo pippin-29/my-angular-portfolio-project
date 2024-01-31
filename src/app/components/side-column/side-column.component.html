@@ -1,5 +1,5 @@
 <div [class.collapsed]="isSideColumnVisible" class="side-column">
-	<button class=toggleButton (click)="toggleSideColumn()"></button>
+	<button class=toggleButton (touchend)="toggleSideColumn()" (click)="toggleSideColumn()"></button>
 	<h5 [class.hide]="isSideColumnVisible">Projects:</h5>
 	<h6 [class.hide]="isSideColumnVisible">yosh.i (minishell)</h6>
 	<ul>

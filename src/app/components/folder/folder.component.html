@@ -1,5 +1,5 @@
 <div class="folder">
-	<span (click)="toggleCollapse()" [class.arrow]="true" [class.collapsed]="isCollapsed" [class.expanded]="!isCollapsed">
+	<span (touchend)="toggleCollapse()" (click)="toggleCollapse()" [class.arrow]="true" [class.collapsed]="isCollapsed" [class.expanded]="!isCollapsed">
 	  {{ isCollapsed ? '📁' : '📂' }} {{ folderName }}
 	</span>
 	<div *ngIf="!isCollapsed" class="file">
