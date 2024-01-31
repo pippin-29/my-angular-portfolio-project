@@ -46,16 +46,23 @@
 }
 
 .fourwide-grid-item {
+	
 	background-color: white;
 	width: 264px;
 	height: 64px;
+	
 	margin: 2px;
 	border: 2px solid plum;
 }
 
 .output {
-	font-size: 200%;
+
+	font-size: 142%;
 	float: right;
+
+
+	max-width: 100%;
+
 }
 
 .opout {
