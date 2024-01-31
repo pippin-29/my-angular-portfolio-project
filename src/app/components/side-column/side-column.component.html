@@ -1,6 +1,6 @@
 <div [class.collapsed]="isSideColumnVisible" class="side-column">
 	<button class=toggleButton (click)="toggleSideColumn()"></button>
-	<h5 [class.hide]="isSideColumnVisible">Projects</h5>
+	<h5 [class.hide]="isSideColumnVisible">Projects:</h5>
 	<h6 [class.hide]="isSideColumnVisible">yosh.i (minishell)</h6>
 	<ul>
 		<li class="move-left" [class.hide]="isSideColumnVisible">
@@ -26,7 +26,7 @@
 		</li>
 	</ul>
 	<li [class.hide]="isSideColumnVisible"><a class="link" routerLink="/components/nav/c_projects/">A Story - by ChatGPT</a></li>
-	<br>
+
 	<li [class.hide]="isSideColumnVisible"><a class="link" routerLink="/components/nav/calculator/">Calculator</a></li>
 
 </div>
