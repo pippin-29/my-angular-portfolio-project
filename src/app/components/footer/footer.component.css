@@ -13,18 +13,13 @@
 	padding: 21px;
 }
 
-.in-img {
-	transform: translateX(5%);
-
-}
-
 .gh {
 	display: flex;
 	float: left;
 	transform: translateX(-10%);
 	background-color: #383838;
 	padding: 10px;
-	margin: 12px;
+	margin: 6px;
 	max-width: 128px;
 
 }
@@ -35,6 +30,6 @@
 	transform: translateX(10%);
 	background-color: #383838;
 	padding: 10px;
-	margin: 12px;
+	margin: 6px;
 	max-width: 128px;
 }

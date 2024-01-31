@@ -1,5 +1,5 @@
 .side-column{
-	max-width: 196px;
+	max-width: 128px;
 
 	background-color: #2c2c2c;
 	color: plum;
@@ -14,6 +14,42 @@
 	white-space: nowrap;
 }
 
+.move-left {
+	font-size: 75%;
+	transform: translateX(-25%);
+}
+
 .collapsed {
-	max-width: 42px;
+	max-width: 5px;
+	overflow: unset;
+}
+
+.hide {
+	display: none;
+}
+
+.toggleButton {
+	transform: translateX(-32%);
+}
+
+
+.link {
+	color: plum;
+	font-size: 72%;
+}
+
+.link:active {
+	color: lightsteelblue;
+	font-size: 76%;
+}
+
+h5 {
+	font-size: 90%;
+	margin-bottom: -5%;
+}
+
+h6 {
+	font-size: 80%;
+	margin-bottom: -8%;
+	margin-top: 10%;
 }

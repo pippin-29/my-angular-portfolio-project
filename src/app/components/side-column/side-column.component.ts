@@ -19,7 +19,7 @@ import { Component } from "@angular/core";
 })
 
 export class SideColumnComponent {
-		isSideColumnVisible = true;
+		isSideColumnVisible = false;
 
 		toggleSideColumn() {
 			this.isSideColumnVisible = !this.isSideColumnVisible;
