@@ -10,8 +10,5 @@
 	margin-left: 8px;
 	padding: 10px;
 	flex: 1;
-
-	overflow: auto;
-
-
+	overflow-x: scroll;
 }
