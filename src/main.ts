@@ -18,7 +18,7 @@ bootstrapping the Angular application in a browser.
 The bootstrapModule method is then called with the root module (AppModule) as an argument. 
 This initiates the bootstrapping process for the Angular application.
 
-->>> -.catch((err) => console.error(err));
+->>> .catch((err) => console.error(err));
 
 The catch method is used to handle any errors that may occur during the bootstrapping 
 process.
