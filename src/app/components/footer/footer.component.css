@@ -11,25 +11,20 @@
 	vertical-align: middle;
 	margin-bottom: 10px;
 	padding: 21px;
+	overflow-y: hidden;
 }
 
-.gh {
+.footer-icon {
+
 	display: flex;
 	float: left;
-	transform: translateX(-10%);
 	background-color: #383838;
 	padding: 10px;
 	margin: 6px;
-	max-width: 128px;
 
 }
 
-.in {
-	display: flex;
-	float: right;
-	transform: translateX(10%);
-	background-color: #383838;
-	padding: 10px;
-	margin: 6px;
-	max-width: 128px;
+img {
+	width: 48px;
+	height: auto;
 }
