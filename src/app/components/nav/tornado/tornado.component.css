@@ -1,0 +1,7 @@
+.json {
+	max-height: 100%;
+	white-space: pre-line; /* Preserve newline characters in the JSON string */
+	font-family: monospace; /* Use a monospaced font for better alignment */
+	padding: 10px;
+	overflow: auto;
+}
