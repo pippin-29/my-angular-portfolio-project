@@ -1,6 +1,6 @@
 .main-column {
 	font-family: monospace;
-	column-width: 1920px;
+	column-width: auto;
 	color: #ccc;
 	background-color: #2c2c2c;
 	height: 59vh;

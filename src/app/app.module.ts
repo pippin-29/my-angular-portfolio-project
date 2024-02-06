@@ -12,7 +12,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 /// ^^^ node_modules ^^^ ///
 
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { TornadoModule } from './components/nav/tornado/tornado.module';
 /// ^^^ app-specific module(s) ^^^ ///
 
 
@@ -32,12 +34,14 @@ declarations: [
 	FolderComponent,
 	MainColumnComponent,
 	HeaderComponent,
-	FooterComponent
+	FooterComponent,
 ],
 
 imports: [
 	BrowserModule,
-	AppRoutingModule
+	TornadoModule,
+	AppRoutingModule,
+	HttpClientModule
 ],
 
 bootstrap: [AppComponent]

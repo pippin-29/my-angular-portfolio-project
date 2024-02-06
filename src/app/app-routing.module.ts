@@ -1,5 +1,6 @@
 import { NgModule } 			from "@angular/core";
 import { RouterModule, Routes }	from "@angular/router";
+
 /// ^^^ node_modules ^^^ ///
 
 import { CalculatorComponent } 	from "./components/nav/calculator/calculator.component";
